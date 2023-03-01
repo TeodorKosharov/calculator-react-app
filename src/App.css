@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import "calculator.css";
+
+html {
+    font-family: 'Fredoka One', cursive;
+    overflow-y: hidden;
+}
+
+body {
+    margin: 0;
+    background-color: #C7D5FFAA;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #020045;
+    font-size: 20px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+footer {
+    background-color: #020045;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
